@@ -1,0 +1,99 @@
+nav {
+    background-color: rgba(128, 128, 128, 0.427);
+        .logo {
+            height: 3.5em;
+            border-radius: 5em;
+            margin-left: -14em;
+            margin-left: -3.5em;
+        }
+}
+
+header {
+    background-image: url("img/FONDO\ Vector.svg");
+    height: 40em;
+    background-size: cover;
+    position: relative;
+        #mainContainer{
+            background-color: rgba(70, 97, 118, 0.712);
+            padding: 3em;
+            border-radius: 3em;
+            margin-left: 28em;
+        }
+        .btn2 {
+            background-color: rgb(64, 158, 81);
+            border-radius: 2em;
+            color: aliceblue;
+            font-weight: bold;
+            padding-left: 1.3em;
+            padding-right: 1.3em;
+        }
+        .title {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+                h1 {
+                    color: rgb(194, 207, 217);
+                    font-size: 2em;
+                    font-weight: bold;
+                }
+        }
+        main {
+            #row-nuestros {
+                background-color: rgb(60, 109, 150);
+                margin-top: 35.4em;
+                    .nuestros {
+                        height: 13em;
+                        width: 16em;
+                        border-radius: 5em;
+                        margin-top: 1em;
+                        margin-bottom: 0em;
+                    }       
+            }
+            .row {
+                margin: 0;
+            }
+            h2 {
+                font-weight: bold;
+                margin-top: 1.5em !important; 
+            }
+
+                #contactofondo {    
+                    /*background-image: url("img/FONDO-PLANETA.jpg");
+                    width: 100% !important;*/
+                    #contacto {
+                            background-image: url("img/FONDO\ Vector2-02-02.svg");
+                            img {
+                                margin-right: 20em;
+                            }
+                            h5 {
+                                color: white;
+                                margin-top: 2em;
+                                padding-left: 2em;
+                            }
+                            h6 {
+                                color: white;
+                                padding-left: 2.6em;
+                                margin-top: 2em;
+                            }
+                            /*.formulario {
+                                margin-left: 62em;
+                            }*/
+                            #formulario {
+                                width: 20em;
+                                margin-top: 2em;
+                                margin-left: 15em;
+                                    #coldos {
+                                        margin-right: -21em;
+                                        margin-left: 22em;
+                                        margin-top: -7.7em;
+                                    }
+                                    
+                            }
+                            .btn2 {
+                                margin-top: 1em;
+                            }
+                    }
+                }
+        } 
+
+}
