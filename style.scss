@@ -1,99 +1,154 @@
-nav {
-    background-color: rgba(128, 128, 128, 0.427);
-        .logo {
-            height: 3.5em;
-            border-radius: 5em;
-            margin-left: -14em;
-            margin-left: -3.5em;
-        }
-}
-
 header {
     background-image: url("img/FONDO\ Vector.svg");
     height: 40em;
     background-size: cover;
     position: relative;
+    width: 99.6%;
+    margin-right: -0.3em !important;
+        nav {
+            #nav {
+                position: fixed;
+                background-color: rgba(128, 128, 128, 0.427);
+            }
+            .logo {
+                height: 3.5em;
+                border-radius: 5em;
+            }
+        }
         #mainContainer{
-            background-color: rgba(70, 97, 118, 0.712);
-            padding: 3em;
-            border-radius: 3em;
-            margin-left: 28em;
-        }
-        .btn2 {
-            background-color: rgb(64, 158, 81);
-            border-radius: 2em;
-            color: aliceblue;
-            font-weight: bold;
-            padding-left: 1.3em;
-            padding-right: 1.3em;
-        }
-        .title {
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
-                h1 {
-                    color: rgb(194, 207, 217);
-                    font-size: 2em;
-                    font-weight: bold;
-                }
+            background-color: rgba(70, 97, 118, 0.712);
+            padding: 3em;
+            border-radius: 3em;
+            margin-right: 2em;
+            h1 {
+                color: rgb(194, 207, 217);
+                font-size: 2em;
+                font-weight: bold;
+            }
+            .btn2 {
+                background-color: rgb(64, 158, 81);
+                border-radius: 2em;
+                color: aliceblue;
+                font-weight: bold;
+                padding-left: 1.3em;
+                padding-right: 1.3em;
+            }
         }
         main {
             #row-nuestros {
-                background-color: rgb(60, 109, 150);
                 margin-top: 35.4em;
-                    .nuestros {
-                        height: 13em;
-                        width: 16em;
-                        border-radius: 5em;
-                        margin-top: 1em;
-                        margin-bottom: 0em;
-                    }       
-            }
-            .row {
-                margin: 0;
-            }
-            h2 {
-                font-weight: bold;
-                margin-top: 1.5em !important; 
-            }
-
-                #contactofondo {    
-                    /*background-image: url("img/FONDO-PLANETA.jpg");
-                    width: 100% !important;*/
-                    #contacto {
-                            background-image: url("img/FONDO\ Vector2-02-02.svg");
-                            img {
-                                margin-right: 20em;
+                width: 101.5%;
+                    #despegar {
+                        background-color: rgb(60, 109, 150);
+                        background-color: white;
+                            .hdespegar {
+                                color: rgb(46, 46, 46);
+                                text-align: left;
                             }
-                            h5 {
-                                color: white;
-                                margin-top: 2em;
-                                padding-left: 2em;
-                            }
-                            h6 {
-                                color: white;
-                                padding-left: 2.6em;
-                                margin-top: 2em;
-                            }
-                            /*.formulario {
-                                margin-left: 62em;
-                            }*/
-                            #formulario {
-                                width: 20em;
-                                margin-top: 2em;
-                                margin-left: 15em;
-                                    #coldos {
-                                        margin-right: -21em;
-                                        margin-left: 22em;
-                                        margin-top: -7.7em;
-                                    }
-                                    
-                            }
-                            .btn2 {
-                                margin-top: 1em;
+                            .cincodespegar {
+                                color: rgb(46, 46, 46);
+                                text-align: left;
+                                padding-top: 1.3em;
+                                width: 50%;
+                                font-style: bold;
                             }
                     }
+                    
+                    .rowdef {
+                        background-color: rgb(60, 109, 150);
+                        h2 {
+                            font-weight: bold;
+                            margin-top: 1.5em !important; 
+                        }    
+                    }
+                    #rowdef {
+                        background-color: rgb(60, 109, 150);
+                        .nuestros {
+                            height: 13em;
+                            width: 16em;
+                            border-radius: 5em;
+                            margin-top: 1em;
+                            margin-bottom: 0em;
+                        }  
+                    }                  
+            }
+            #contactofondo {    
+                width: 101.5%;
+                #contacto {
+                    background-image: url("img/FONDO\ Vector2-02-02.svg");
+                    h5 {
+                        color: white;
+                        margin-top: 2em;
+                        padding-left: 2em;
+                            }
+                    .btn2 {
+                        margin-top: 1em;
+                    }                            
                 }
+            }
         } 
+}
 
+
+@media screen and (max-width: 540px) {
+    header {
+        padding-bottom: -4em !important;
+        width: 101% !important;
+        #mainContainer {
+            height: 80%;
+            background-color: rgba(70, 97, 118, 0.79) !important;
+            margin-right: 1.2em;
+            margin-left: 0.4em;
+            margin-bottom: 1em !important;
+            h1 {
+                font-size: 2.5em !important;
+                text-align: left;
+                margin-top: -0.25em;
+                margin-left: 0.3em;
+            }
+            h4 {
+            font-size: 1.5em;
+            text-align: left;
+            margin-top: -1.2em;
+            padding-bottom: -2.4em !important;
+            margin-left: 0.6em;
+            }
+            button {
+                margin-top: 0.6em !important;
+                margin-bottom: 0.4em;
+                width: 50%;
+                margin-left: 6em !important;
+            }
+        }
+        main {
+            width: 100%;
+            #despegar{
+                padding-top: 7em;
+                padding-bottom: 8em;
+                margin-top: 1em !important;
+                margin-right: -0.2em;
+                .contendespegar {
+                    padding-left: 10em;
+                    .hdespegar {
+                        width: 80%;
+                    }
+                    .cincodespegar {
+                        padding-top: 0.5em;
+                        width: 76%;
+                    }
+                    #botonDownl {
+                        margin-left: -13.9em !important;
+                        margin-top: 5em;
+                    }
+                }       
+                
+            }
+             
+        }    
+          
+    }
+      
 }
