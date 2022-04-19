@@ -9,10 +9,13 @@ header {
             #nav {
                 position: fixed;
                 background-color: rgba(128, 128, 128, 0.427);
+                margin-top: 3.6em;
+                padding-bottom: 0.8em;
             }
             .logo {
                 height: 3.5em;
                 border-radius: 5em;
+                margin-top: 1em;
             }
         }
         #mainContainer{
@@ -84,7 +87,8 @@ header {
             #contactofondo {    
                 width: 101.5%;
                 #contacto {
-                    background-image: url("img/FONDO\ Vector2-02-02.svg");
+                    background-color: white;
+                    margin-top: 4em;
                     h5 {
                         color: white;
                         margin-top: 2em;
@@ -92,6 +96,24 @@ header {
                             }
                     .btn2 {
                         margin-top: 1em;
+                    }
+                    #formulario {
+                        #coluno{
+                            /*width: 25%;*/         
+                        }
+                        #coldos {
+                            /*width: 25%;*/
+                            .dropdown {
+                                border-color: rgb(174, 174, 174);
+                                .btn-secondary {
+                                    background-color: white;
+                                    color: grey;
+                                    width: 21em;
+                                    padding-left: -8em !important;
+                                }
+                            }
+                            
+                        }
                     }                            
                 }
             }
@@ -108,7 +130,7 @@ header {
             background-color: rgba(99, 126, 146, 0.79) !important;
             margin-right: 1.2em;
             margin-left: 0.4em;
-            margin-bottom: 1em !important;
+            margin-top: 2em;
             h1 {
                 font-size: 2.5em !important;
                 text-align: left;
@@ -141,15 +163,27 @@ header {
                     padding-left: 3em;
                     margin-top: -6em;
                     .pdespeg {
-                       color: green;
-                       margin-left: -9.3em;
-                       margin-bottom: 0.2em;
+                       color: rgb(4, 93, 4);
+                       margin-left: -5em;
+                       margin-bottom: -1em;
                        font-size: 85%;
-                        text-shadow: 1em;
+                       background-color: rgba(64, 158, 81, 0.224);
+                       background-position: 5px 5px;
+                       margin-left: 7.8em;
+                       border-radius: 1em;
+                       width: 30%;
                     }
+                    /*#diverde {
+                        background-color: rgba(64, 158, 81, 0.224);
+                        color: rgba(64, 158, 81, 0);
+                        width: 10em;
+                        height: 1em;
+                        margin-left: 7.1em;
+                        border-radius: 0.8em;
+                    }*/
                     .hdespegar {
                         width: 80%;
-                        margin-left: 2em;
+                        margin-left: 4.4em;
                         margin-bottom: 1em;
                     }
                     .cincodespegar {
@@ -161,7 +195,7 @@ header {
                         margin-top: 3em;
                         border-radius: 1em;
                         width: 76%;
-                        background-color: rgba(175, 172, 172, 0.365);
+                        background-color: rgba(186, 185, 185, 0.238);
                     }
                     #botonDownl {
                         margin-left: -23.1em !important;
@@ -169,6 +203,37 @@ header {
                     }
                 }       
                 
+            }
+            #contactofondo {
+                margin-top: 4em;
+                margin-bottom: 3em;
+                #contacto {
+                    #parrafocont {
+                        margin-left: 13em;
+                        margin-bottom: 2.5em;
+                    }
+                    #formulario {
+                        #coluno {
+                            width: 80%;
+                            margin-left: 3em;
+                        }
+                        #coldos {
+                            width: 80%;
+                            margin-left: 3em;
+                            .dropdown-toggle {
+                                width: 100.5% !important;
+                            }
+                        }
+                        .form-group {
+                            width: 81%;
+                            margin-left: 2.9em;
+                            padding-bottom: 2em !important;
+                        }
+                        #enviar {
+                            margin-left: 14em;
+                        }
+                    }
+                }
             }
              
         }    
